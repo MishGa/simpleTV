@@ -1,4 +1,4 @@
-# for simpleTV IPTV Player (http://iptv.gen12.net)
+## for simpleTV IPTV Player (http://iptv.gen12.net)
 ---------------------------------------------
 Устанавливать:
  - видеоскрипты в папку ..\luaScr\user\video
