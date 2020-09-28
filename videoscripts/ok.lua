@@ -1,10 +1,11 @@
--- видеоскрипт для сайта https://ok.ru (4/5/20)
+-- видеоскрипт для сайта https://ok.ru (29/9/20)
+-- Copyright © 2017-2020 Nexterr
 -- открывает подобные ссылки:
--- https://ok.ru/video/29655304849&isPlst=true
 -- http://ok.ru/videoembed/2636779838
 -- https://ok.ru/video/361515387611
 -- http://ok.ru/video/23276948199
 -- https://m.ok.ru/live/73314
+-- https://ok.ru/live/search/1115050286838
 -- https://m.ok.ru/dk?st.cmd=movieLayer&st.discId=220851668368&st.retLoc=default&st.discType=MOVIE&st.mvId=220851668368&st.stpos=rec_5&_prevCmd=movieLayer&tkn=3933
 -- https://m.ok.ru/dk?st.cmd=moviePlaybackRedirect&st.sig=923171edb53da243925fbfe90c1a285ea99c3fe9&st.mq=3&st.mvid=1565588916953&st.ip=178.57.98.107&st.exp=1575887947669&st.hls=off&_prevCmd=main&tkn=9594
 		if m_simpleTV.Control.ChangeAddress ~= 'No' then return end
@@ -24,7 +25,7 @@
 			m_simpleTV.Interface.SetBackground({BackColor = 0, TypeBackColor = 0, PictFileName = '', UseLogo = 0, Once = 1})
 		end
 	end
-	local userAgent = 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36'
+	local userAgent = 'Mozilla/5.0 (Windows NT 10.0; rv:82.0) Gecko/20100101 Firefox/82.0'
 	if not m_simpleTV.User then
 		m_simpleTV.User = {}
 	end
@@ -94,8 +95,8 @@
 			handlerInfo.luaFunction = 'PositionThumbs_ok'
 			handlerInfo.regexString = '.*\.ok\.ru/.*|kinogid\.com/.*'
 			handlerInfo.sizeFactor = m_simpleTV.User.paramScriptForSkin_thumbsSizeFactor or 0.12
-			handlerInfo.backColor = m_simpleTV.User.paramScriptForSkin_thumbsBackColor or ARGB(0, 0, 0, 0)
-			handlerInfo.textColor = m_simpleTV.User.paramScriptForSkin_thumbsTextColor or ARGB(0, 0, 0, 0)
+			handlerInfo.backColor = m_simpleTV.User.paramScriptForSkin_thumbsBackColor or 0x00000000
+			handlerInfo.textColor = m_simpleTV.User.paramScriptForSkin_thumbsTextColor or 0x00000000
 			handlerInfo.glowParams = m_simpleTV.User.paramScriptForSkin_thumbsGlowParams or ''
 			handlerInfo.marginBottom = m_simpleTV.User.paramScriptForSkin_thumbsMarginBottom or 0
 			handlerInfo.minImageWidth = 80
@@ -129,10 +130,7 @@
 	function okSaveQuality(obj, id)
 		m_simpleTV.Config.SetValue('ok_qlty', id)
 	end
-	local id = inAdr:match('mv[Ii]d=(%d+)')
-			or inAdr:match('/video/(%d+)')
-			or inAdr:match('/videoembed/(%d+)')
-			or inAdr:match('/live/(%d+)')
+	local id = inAdr:match('mv[Ii]d=(%d+)') or inAdr:match('%d+')
 		if not id then return end
 	local session = m_simpleTV.Http.New(userAgent)
 		if not session then return end
@@ -201,7 +199,7 @@
 				m_simpleTV.Control.ChangeChannelName(title, m_simpleTV.Control.ChannelID, false)
 				local logo = answer:match('"og:image" content=".-url=([^"]+)')
 				if logo then
-					logo = m_simpleTV.Common.fromPersentEncoding(logo)
+					logo = m_simpleTV.Common.fromPercentEncoding(logo)
 					logo = logo:gsub('&amp;', '&')
 					m_simpleTV.Control.ChangeChannelLogo(logo, m_simpleTV.Control.ChannelID)
 				end
