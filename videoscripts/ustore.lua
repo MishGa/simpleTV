@@ -1,7 +1,6 @@
--- видеоскрипт для видеобазы "Ustore" https://ustore.bz (22/9/20)
+-- видеоскрипт для видеобазы "Ustore" https://ustore.bz (28/9/20)
 -- Copyright © 2017-2020 Nexterr
 -- открывает подобные ссылки:
--- http://start.u-cdn.top/start/4c384192c35245c7d527bc9845673237/e995e3bb1823a8d2d94e4c9ffadd64b0
 -- http://get.u-stream.in/start/4c384192c35245c7d527bc9845673237/0f39f32f5890f610440996a647fed112
 		if m_simpleTV.Control.ChangeAddress ~= 'No' then return end
 		if not m_simpleTV.Control.CurrentAddress:match('^https?://start%.u%-cdn.top')
@@ -42,8 +41,8 @@
 	local headers = 'Referer: https://kino-2020.online/'
 	local function ustoreDecode(data)
 		data = data:sub(2, #data - 1)
-		local s1 = 'zxasdqweZXASDQWE01234'
-		local s2 = 'plijymknPLIJYMKN98765'
+		local s1 = 'pkolijuPKOLIJYU1234'
+		local s2 = 'zdcaqrtZDCAQRT98765'
 			for i = 1, #s1 do
 				local re1 = s1:sub(i, i)
 				local re2 = s2:sub(i, i)
@@ -64,6 +63,7 @@
 			end
 		data = decode64(data)
 		data = m_simpleTV.Common.fromPercentEncoding(data)
+			if #data < 30 then return end
 		local digits = '0123456789abcdefghijklmnopqrstuvwxyz'
 		data = data:gsub('!', ''):gsub('%c', '')
 		local t, j = {}, 1
@@ -106,14 +106,19 @@
 			 return
 			end
 		local t, i = {}, 1
+		local j = 1
 			while tab.url[i] do
-				t[i] = {}
-				t[i].Id = i
-				t[i].Address = ustoreDecode(tab.url[i]) .. '$OPT:NO-STIMESHIFT'
-				t[i].qlty = i
+				local dec = ustoreDecode(tab.url[i])
+				if dec then
+					t[j] = {}
+					t[j].Id = j
+					t[j].Address = dec .. '$OPT:NO-STIMESHIFT'
+					t[j].qlty = j
+					j = j + 1
+				end
 				i = i + 1
 			end
-			if i == 1 then return end
+			if j == 1 then return end
 			for _, v in pairs(t) do
 				if v.qlty == 1 then
 					v.qlty = 360
@@ -180,7 +185,8 @@
 			showError('4')
 		 return
 		end
-	local url = 'https://ustore.bz/usJson.php?hash=%s&id=%s'
+	local host = inAdr:match('https?://[^/]+')
+	local url = host .. '/duration.php?hash=%s&id=%s'
 	answer = answer:gsub('%c', ''):gsub('%s*', '')
 	answer = answer:match('"playlist":(%[.-}%])')
 	if answer then
