@@ -1,4 +1,4 @@
--- скрапер TVS для загрузки плейлиста "impulsTV" http://impulstv.ru (22/9/20)
+-- скрапер TVS для загрузки плейлиста "impulsTV" http://impulstv.ru (29/9/20)
 -- Copyright © 2017-2020 Nexterr
 -- логин, пароль установить в дополнении 'Password Manager', для id - impulstv
 -- ## необходим ##
@@ -47,9 +47,9 @@ local filter = {
 									, color = color
 									, id = 'channelName'})
 	end
-	local function autoregistration()
+	local function autoregistration(prx)
 		local userAgent = 'Kodi (XBMC) smarty plugin on linux'
-		local session = m_simpleTV.Http.New(userAgent, proxy, nil)
+		local session = m_simpleTV.Http.New(userAgent, prx, nil)
 			if not session then return end
 		m_simpleTV.Http.SetTimeout(session, 20000)
 		local url = decode64('aHR0cDovL3NtYXJ0eS5taWNyb2ltcHVscy5jb20vYXBpL3R2bWlkZGxld2FyZS9hcGkvYWNjb3VudC9yZWdpc3Rlci8/Y29tbWVudD1BdXRvcmVnaXN0cmF0aW9uJTIwZnJvbSUyMCZhdXRvX2FjdGl2YXRpb25fcGVyaW9kPTcmZGV2aWNlPWtvZGkmY2xpZW50X2lkPTc3JmFwaV9rZXk9bVMwWDAzY0Exbmdta1czS0oyU3hESE00OHRZUGVHM3FveVJiUGNsQlpYcGkyME1JUElwQ1NYWEl3d0JpT0tHciZsYW5nPXJ1JmF1dGhrZXk9JnNlc3Nfa2V5PTAmZGV2aWNlX3VpZD0') .. (math.random(1000, 1000000) * math.random(1000, 1000000))
@@ -110,6 +110,9 @@ local filter = {
 			or login == '' or pass == ''
 		then
 			login, pass = autoregistration()
+			if proxy ~= '' and not (login or pass) then
+				login, pass = autoregistration(proxy)
+			end
 		end
 			if not login or not pass then
 				showMess(Source.name .. ' логин/пароль установить\nв дополнении "Password Manager"\nдля id - impulstv\n\nдля пробного периода\nпоменяйте прокси в скрапере\nили IP адрес подключения', 0xffff6600)
