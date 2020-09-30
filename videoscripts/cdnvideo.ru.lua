@@ -1,9 +1,9 @@
--- видеоскрипт для https://cdnvideo.ru (15/9/20)
+-- видеоскрипт для https://cdnvideo.ru (29/9/20)
 -- Copyright © 2017-2020 Nexterr
 -- открывает подобные ссылки:
 -- https://player.cdnvideo.ru/iframer.html?id=7SwGd3mioH
 		if m_simpleTV.Control.ChangeAddress ~= 'No' then return end
-		if not m_simpleTV.Control.CurrentAddress:match('^https://player%.cdnvideo%.ru') then return end
+		if not m_simpleTV.Control.CurrentAddress:match('^https?://player%.cdnvideo%.ru') then return end
 	if m_simpleTV.Control.MainMode == 0 then
 		m_simpleTV.Interface.SetBackground({BackColor = 0, PictFileName = '', TypeBackColor = 0, UseLogo = 0, Once = 1})
 	end
