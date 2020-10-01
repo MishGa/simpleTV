@@ -19,7 +19,7 @@ local filter = {
 	{'Amedia 1 HD', 'A1'},
 	{'Amedia 2 HD', 'A2'},
 	{'MTV', 'MTV Russia'},
-	{'Cinema HD', 'Cinema HD (Космос ТВ)'},
+	{'Cinema HD', 'Cinema Космос ТВ'},
 	{'ПерецI', 'Перец Int'},
 	{'ДомашнийI', 'Домашний Int'},
 	{'HD Медиа', 'HD Media'},
