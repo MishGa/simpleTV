@@ -1,5 +1,5 @@
--- скрапер TVS для загрузки плейлиста "voka" https://www.voka.tv (16/8/20)
--- Copyright © 2017-2020 Nexterr
+-- скрапер TVS для загрузки плейлиста "voka" https://www.voka.tv (1/10/20)
+-- Copyright © 2017-2020 Nexterr | https://github.com/Nexterr
 -- необходим видоскрипт: voka
 -- ## Беларусъ прокси ##
 local prx = ''
@@ -8,9 +8,7 @@ local prx = ''
 -- 'http://134.17.84.84:8080' -- (пример)
 -- ## переименовать каналы ##
 local filter = {
-	{'ББК', 'ББЧ'},
 	{'Мир-ТВ', 'МИР'},
-	{'Сетанта спорт+ HD', 'Setanta Sports + HD'},
 	{'СТВ', 'СТВ (Беларусь)'},
 	{'Русский экстрим', 'Russian Extreme'},
 	{'8 канал', '8 Канал (Беларусь)'},
@@ -18,8 +16,13 @@ local filter = {
 	{'2-й городской канал', 'ТВ2 Могилёв'},
 	{'8 канал HD', '8 Канал (Беларусь)'},
 	{'М1-Глобал', 'M-1 Global'},
+	{'Amedia 1 HD', 'A1'},
 	{'Amedia 2 HD', 'A2'},
 	{'MTV', 'MTV Russia'},
+	{'Cinema HD', 'MTV Russia'},
+	{'ПерецI', 'Перец Int'},
+	{'ДомашнийI', 'Домашний Int'},
+	{'HD Медиа', 'HD Media'},
 	}
 -- ##
 	module('voka_pls', package.seeall)
@@ -96,11 +99,13 @@ local filter = {
 											.. '" catchup-source="?stream_start_offset=${offset}000000"'
 					end
 				end
-				t[i].name = tab.data[i].name:gsub('%(новый%)', ''):gsub('%(тест%)', '')
+				if tab.data[i].id == '0a62210f-19d4-4ea1-a814-2715a06936da' then
+					t[i].skip = true
+				end
+				t[i].name = tab.data[i].name:gsub('%(новый%)', ''):gsub('%(тест%)', ''):gsub('%(Тест%)', '')
 				t[i].address = 'https://www.voka.tv/' .. tab.data[i].id
 				i = i + 1
 			end
-			if i == 1 then return end
 	 return t
 	end
 	function GetList(UpdateID, m3u_file)
