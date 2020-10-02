@@ -1,5 +1,5 @@
--- видеоскрипт для видеобазы "Ustore" https://ustore.bz (28/9/20)
--- Copyright © 2017-2020 Nexterr
+-- видеоскрипт для видеобазы "Ustore" https://ustore.bz (2/10/20)
+-- Copyright © 2017-2020 Nexterr | https://github.com/Nexterr
 -- открывает подобные ссылки:
 -- http://get.u-stream.in/start/4c384192c35245c7d527bc9845673237/0f39f32f5890f610440996a647fed112
 		if m_simpleTV.Control.ChangeAddress ~= 'No' then return end
@@ -41,8 +41,8 @@
 	local headers = 'Referer: https://kino-2020.online/'
 	local function ustoreDecode(data)
 		data = data:sub(2, #data - 1)
-		local s1 = 'pkolijuPKOLIJYU1234'
-		local s2 = 'zdcaqrtZDCAQRT98765'
+		local s1 = 'zqaswdcZQAWSDC01234'
+		local s2 = 'polkiumPOLKUIM98765'
 			for i = 1, #s1 do
 				local re1 = s1:sub(i, i)
 				local re2 = s2:sub(i, i)
@@ -186,7 +186,7 @@
 		 return
 		end
 	local host = inAdr:match('https?://[^/]+')
-	local url = host .. '/duration.php?hash=%s&id=%s'
+	local url = host .. '/length.php?hash=%s&id=%s'
 	answer = answer:gsub('%c', ''):gsub('%s*', '')
 	answer = answer:match('"playlist":(%[.-}%])')
 	if answer then
