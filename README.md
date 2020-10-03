@@ -1,5 +1,5 @@
 ---------------------------------------------
-## for simpleTV IPTV Player (http://iptv.gen12.net)
+## scripts for simpleTV IPTV Player (http://iptv.gen12.net)
 ---------------------------------------------
 - UTF-8 without BOM
 ---------------------------------------------
