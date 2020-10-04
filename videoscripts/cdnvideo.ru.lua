@@ -1,5 +1,5 @@
 -- видеоскрипт для https://cdnvideo.ru (4/10/20)
--- Copyright © 2017-2020 Nexterr
+-- Copyright © 2017-2020 Nexterr | https://github.com/Nexterr/simpleTV
 -- открывает подобные ссылки:
 -- https://player.cdnvideo.ru/iframer.html?id=7SwGd3mioH
 -- https://playercdn.cdnvideo.ru/aloha/players/uchalytv_player.html
