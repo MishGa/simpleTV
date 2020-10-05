@@ -1,4 +1,5 @@
--- видеоскрипт для сайта https://yandex.ru (3/6/20)
+-- видеоскрипт для сайта https://yandex.ru (6/10/20)
+-- Copyright © 2017-2020 Nexterr | https://github.com/Nexterr/simpleTV
 -- открывает подобные ссылки:
 -- https://yandex.ru/portal/video?from=videohub&stream_id=4ec8f2d80cb564848e37d63ae22976d6
 -- https://ott-widget.kinopoisk.ru/kinopoisk.json?episode=&season=&from=kp&isMobile=0&kpId=943876
@@ -53,7 +54,7 @@
 	end
 	m_simpleTV.Control.ChangeAddress = 'Yes'
 	m_simpleTV.Control.CurrentAddress = ''
-	local session = m_simpleTV.Http.New('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36')
+	local session = m_simpleTV.Http.New('Mozilla/5.0 (Windows NT 10.0; rv:81.0) Gecko/20100101 Firefox/81.0')
 		if not session then return end
 	m_simpleTV.Http.SetTimeout(session, 8000)
 	if not m_simpleTV.User then
@@ -82,21 +83,15 @@
 		local rc, answer = m_simpleTV.Http.Request(session, {url = url .. '?from=fb&vsid=0'})
 			if rc ~= 200 then return end
 		local t, i = {}, 1
-		local qlty, btr
-			for w in answer:gmatch('#EXT%-X%-STREAM%-INF:(.-m3u8.-)\n') do
-				if not w:match('redundant') then
-					qlty = w:match('RESOLUTION=%d+x(%d+)')
-					btr = w:match('BANDWIDTH=(%d+)')
-						if not qlty or not btr then break end
-					btr = tonumber(btr)
-					btr = (btr / 10000) + 100
+		local qlty
+			for w in answer:gmatch('#EXT%-X%-STREAM.-\n.-\n') do
+				qlty = w:match('RESOLUTION=%d+x(%d+)')
+				if not w:match('redundant') and qlty then
 					qlty = tonumber(qlty)
-					if qlty >= 720 then
-						btr = btr + 100
-					end
 					t[i] = {}
-					t[i].Address = '$OPT:adaptive-bw=' .. btr .. '$OPT:adaptive-logic=fixedrate'
+					t[i].Name = qlty
 					t[i].qlty = qlty
+					t[i].Address = '$OPT:adaptive-maxheight=' .. qlty .. '$OPT:adaptive-logic=highest'
 					i = i + 1
 				end
 			end
