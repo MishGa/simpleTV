@@ -1,5 +1,5 @@
--- видеоскрипт для плейлиста "megafon" https://megafon.tv (3/10/20)
--- Copyright © 2017-2020 Nexterr | https://github.com/Nexterr
+-- видеоскрипт для плейлиста "megafon" https://megafon.tv (6/10/20)
+-- Copyright © 2017-2020 Nexterr | https://github.com/Nexterr/simpleTV
 -- ## необходим ##
 -- скрапер TVS: megafon_pls.lua
 -- открывает подобные ссылки:
@@ -24,21 +24,16 @@
 	local rc, answer = m_simpleTV.Http.Request(session, {url = inAdr})
 	m_simpleTV.Http.Close(session)
 		if rc ~= 200 then return end
-	local extOpt = '$OPT:NO-STIMESHIFT$OPT:network-caching=4000' .. '&megafon'
+	local extOpt = '$OPT:NO-STIMESHIFT'
 	local t, i = {}, 1
-		for qlty, btr in answer:gmatch('height="(%d+)" frameRate="[%d/]+" bandwidth="(%d+)') do
-			if qlty and tonumber(qlty) > 420 then
-				btr = tonumber(btr)
-				btr = (btr / 10000) + 100
-				btr = math.floor(btr)
-				qlty = tonumber(qlty)
-				if qlty >= 720 then
-					btr = btr + 100
-				end
+		for qlty in answer:gmatch('height="(%d+)') do
+			qlty = tonumber(qlty)
+			if qlty > 400 then
 				t[i] = {}
 				t[i].Id = qlty
 				t[i].Name = qlty
-				t[i].Address = inAdr .. '$OPT:adaptive-bw=' .. btr .. '$OPT:adaptive-logic=fixedrate' .. extOpt
+				t[i].Address = inAdr .. '$OPT:adaptive-maxheight='
+								.. qlty .. '$OPT:adaptive-logic=highest' .. extOpt .. '&megafon'
 				i = i + 1
 			end
 		end
@@ -67,7 +62,7 @@
 		t[#t + 1] = {}
 		t[#t].Id = 50000
 		t[#t].Name = '▫ адаптивное'
-		t[#t].Address = inAdr .. extOpt
+		t[#t].Address = inAdr .. extOpt .. '&megafon'
 		index = #t
 			for i = 1, #t do
 				if t[i].Id >= lastQuality then
