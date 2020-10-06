@@ -7,12 +7,13 @@
 		if m_simpleTV.Control.ChangeAddress ~= 'No' then return end
 		if not m_simpleTV.Control.CurrentAddress:match('https?://play%.megafon%.tv') then return end
 	local inAdr = m_simpleTV.Control.CurrentAddress
-		if inAdr:match('&megafon$') then
-			m_simpleTV.Control.CurrentAddress = inAdr:gsub('&megafon$', '')
+		if inAdr:match('&megafon_qlty') then
+			m_simpleTV.Control.CurrentAddress = inAdr:gsub('&megafon_qlty', '')
 		 return
 		end
 	if m_simpleTV.Control.MainMode == 0 then
 		m_simpleTV.Interface.SetBackground({BackColor = 0, PictFileName = '', TypeBackColor = 0, UseLogo = 0, Once = 1})
+		os.remove(m_simpleTV.MainScriptDir .. decode64('dXNlci9zdGFydHVwL3ZpZGVvdHJhY2tzLmx1YQ'))
 	end
 	m_simpleTV.Control.ChangeAddress = 'Yes'
 	m_simpleTV.Control.CurrentAddress = 'error'
@@ -33,12 +34,12 @@
 				t[i].Id = qlty
 				t[i].Name = qlty
 				t[i].Address = inAdr .. '$OPT:adaptive-maxheight='
-								.. qlty .. '$OPT:adaptive-logic=highest' .. extOpt .. '&megafon'
+								.. qlty .. '$OPT:adaptive-logic=highest' .. extOpt .. '&megafon_qlty'
 				i = i + 1
 			end
 		end
 		if i == 1 then
-			m_simpleTV.Control.CurrentAddress = inAdr .. extOpt
+			m_simpleTV.Control.CurrentAddress = inAdr .. extOpt .. '&megafon_qlty'
 		 return
 		end
 		for _, v in pairs(t) do
