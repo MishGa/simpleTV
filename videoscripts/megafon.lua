@@ -7,8 +7,8 @@
 		if m_simpleTV.Control.ChangeAddress ~= 'No' then return end
 		if not m_simpleTV.Control.CurrentAddress:match('https?://play%.megafon%.tv') then return end
 	local inAdr = m_simpleTV.Control.CurrentAddress
-		if inAdr:match('&megafon_qlty') then
-			m_simpleTV.Control.CurrentAddress = inAdr:gsub('&megafon_qlty', '')
+		if inAdr:match('megafon_qlty') then
+			m_simpleTV.Control.CurrentAddress = inAdr
 		 return
 		end
 	if m_simpleTV.Control.MainMode == 0 then
@@ -33,13 +33,13 @@
 				t[i] = {}
 				t[i].Id = qlty
 				t[i].Name = qlty
-				t[i].Address = inAdr .. '$OPT:adaptive-maxheight='
-								.. qlty .. '$OPT:adaptive-logic=highest' .. extOpt .. '&megafon_qlty'
+				t[i].Address = inAdr .. '?megafon_qlty' .. '$OPT:adaptive-maxheight='
+								.. qlty .. '$OPT:adaptive-logic=highest' .. extOpt
 				i = i + 1
 			end
 		end
 		if i == 1 then
-			m_simpleTV.Control.CurrentAddress = inAdr .. extOpt .. '&megafon_qlty'
+			m_simpleTV.Control.CurrentAddress = inAdr .. '?megafon_qlty' .. extOpt
 		 return
 		end
 		for _, v in pairs(t) do
@@ -63,7 +63,7 @@
 		t[#t + 1] = {}
 		t[#t].Id = 50000
 		t[#t].Name = '▫ адаптивное'
-		t[#t].Address = inAdr .. extOpt .. '&megafon'
+		t[#t].Address = inAdr .. '?megafon_qlty' .. extOpt
 		index = #t
 			for i = 1, #t do
 				if t[i].Id >= lastQuality then
