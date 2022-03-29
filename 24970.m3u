@@ -29,8 +29,6 @@ http://37.17.12.119:8910/play/a005
 http://37.187.28.95:2022/setanta_eurasia_hd/mpegts
 #EXTINF:-1 group-title="Матч",КХЛ HD
 http://91.185.3.218:4000/play/404
-#EXTINF:-1 group-title="Матч",Матч! HD
-http://matchtv.ru/on-air
 #EXTINF:-1 group-title="Матч",Матч! Арена
 http://31.173.178.110:8004/play/a094/index.m3u8
 #EXTINF:-1 group-title="Матч",Матч! Боец
@@ -43,8 +41,6 @@ http://srv1.roshen.live/C1BLxKE6AQ/mpegts?token=CoLXmP5TwbdqhdDi$OPT:http-user-a
 https://bl.uma.media/live/291661/HLS/4614144_3,2883584_2,1153024_1/1613109268/2fb2de98a984b4b86bc2cdd980da3430/playlist.m3u8http://176.196.129.10:81/udp/239.255.42.27:1234
 #EXTINF:-1 group-title="Матч",Матч! ТВ
 https://zabava-htlive.cdn.ngenix.net/hls/CH_MATCHTV/variant.m3u8
-#EXTINF:-1 group-title="Матч",Хоккейный HD
-http://srv1.roshen.live/ZwhFEOoTmU/mpegts?token=CoLXmP5TwbdqhdDi$OPT:http-user-agent=Lavf/59.5.100
 #EXTINF:-1 group-title="Матч",VIASAT SPORT
 http://195.245.97.133:8800/play/Viasat_Sport/index.m3u8
 #EXTINF:-1 group-title="Мужские",Дикая рыбалка HD
@@ -101,8 +97,6 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_TV3_4/variant.m3u8
 http://zabava-htlive.cdn.ngenix.net/hls/CH_TVC_4/variant.m3u8
 #EXTINF:-1 group-title="Новосибирск",ТНТ (+4)
 http://zabava-htlive.cdn.ngenix.net/hls/CH_TNT_4/variant.m3u8
-#EXTINF:-1 group-title="Новосибирск",8 Канал. Новосибирск
-https://rt-sib-nsk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_NSK_8CHANNEL/variant.m3u8
 #EXTINF:-1 group-title="Новостные",Мир
 https://rt-sib-nsk-htlive.cdn.ngenix.net/hls/CH_R03_MIR/variant.m3u8
 #EXTINF:-1 group-title="Новостные",Мир (+2)
