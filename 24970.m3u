@@ -39,28 +39,18 @@ http://37.187.28.95:2022/matc_boec/mpegts
 http://37.187.28.95:2022/Matc_igra_hd/mpegts
 #EXTINF:-1 group-title="Матч",Матч! Игра HD
 http://srv1.roshen.live/C1BLxKE6AQ/mpegts?token=CoLXmP5TwbdqhdDi$OPT:http-user-agent=Lavf/59.5.100
-#EXTINF:-1 group-title="Матч",Матч! Прьемер HD
-http://srv1.roshen.live/ruJ3OSf65E/mpegts?token=CoLXmP5TwbdqhdDi$OPT:http-user-agent=Lavf/59.5.100
 #EXTINF:-1 group-title="Матч",Матч! Страна
 https://bl.uma.media/live/291661/HLS/4614144_3,2883584_2,1153024_1/1613109268/2fb2de98a984b4b86bc2cdd980da3430/playlist.m3u8http://176.196.129.10:81/udp/239.255.42.27:1234
 #EXTINF:-1 group-title="Матч",Матч! ТВ
 https://zabava-htlive.cdn.ngenix.net/hls/CH_MATCHTV/variant.m3u8
 #EXTINF:-1 group-title="Матч",Хоккейный HD
 http://srv1.roshen.live/ZwhFEOoTmU/mpegts?token=CoLXmP5TwbdqhdDi$OPT:http-user-agent=Lavf/59.5.100
-#EXTINF:-1 group-title="Матч",Eurosport 1 HD
-http://95.141.128.163:8004/play/a0dg
-#EXTINF:-1 group-title="Матч",EUROSPORT 2 HD
-http://srv1.roshen.live/kOujd1J9z8/mpegts?token=CoLXmP5TwbdqhdDi$OPT:http-user-agent=Lavf/59.5.100
-#EXTINF:-1 group-title="Матч",Eurosport 4K
-https://zabava-htlive.cdn.ngenix.net/hls/CH_EUROSPORT4K/variant.m3u8
 #EXTINF:-1 group-title="Матч",VIASAT SPORT
 http://195.245.97.133:8800/play/Viasat_Sport/index.m3u8
 #EXTINF:-1 group-title="Мужские",Дикая рыбалка HD
 http://zabava-htlive.cdn.ngenix.net/hls/CH_DIKAYARYBALKAHD/variant.m3u8
 #EXTINF:-1 group-title="Музыка",AIVA HD
 http://zabava-htlive.cdn.ngenix.net/hls/CH_AIVAHD/variant.m3u8
-#EXTINF:-1 group-title="Музыка",Матур ТВ
-http://s45177.cdn.ngenix.net/hls/CH_R02_MATURTV/variant.m3u8
 #EXTINF:-1 group-title="Музыка",Муз ТВ
 https://zabava-htlive.cdn.ngenix.net/hls/CH_MUZTV_4/variant.m3u8
 #EXTINF:-1 group-title="Музыка",Муз ТВ (+2)
