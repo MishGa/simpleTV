@@ -43,6 +43,8 @@ https://bl.uma.media/live/291661/HLS/4614144_3,2883584_2,1153024_1/1613109268/2f
 https://zabava-htlive.cdn.ngenix.net/hls/CH_MATCHTV/variant.m3u8
 #EXTINF:-1 group-title="Матч",VIASAT SPORT
 http://195.245.97.133:8800/play/Viasat_Sport/index.m3u8
+#EXTINF:-1 group-title="Матч",Матч! Премьер HD
+https://bl.uma.media/live/126866/HLS/6866944_4,4614144_3,2883584_2,1153024_1/1613528396/a906596714d5111da51743ee194afc5f/playlist.m3u8
 #EXTINF:-1 group-title="Мужские",Дикая рыбалка HD
 http://zabava-htlive.cdn.ngenix.net/hls/CH_DIKAYARYBALKAHD/variant.m3u8
 #EXTINF:-1 group-title="Музыка",AIVA HD
