@@ -75,6 +75,8 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_TV3_4/variant.m3u8
 http://zabava-htlive.cdn.ngenix.net/hls/CH_TVC_4/variant.m3u8
 #EXTINF:-1 group-title="Новосибирск" tvg-logo="../Channel/Logo/ТНТ.png",ТНТ (+4)
 http://zabava-htlive.cdn.ngenix.net/hls/CH_TNT_4/variant.m3u8
+#EXTINF:-1 group-title="Новостные",СОЛОВЬЁВLIVE
+https://infolink/10254
 #EXTINF:-1 group-title="Новостные" tvg-logo="../Channel/Logo/Мир.png",Мир
 https://rt-sib-nsk-htlive.cdn.ngenix.net/hls/CH_R03_MIR/variant.m3u8
 #EXTINF:-1 group-title="Новостные" tvg-logo="../Channel/Logo/Мир.png",Мир (+2)
