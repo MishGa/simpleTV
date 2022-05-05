@@ -893,8 +893,6 @@ http://api.peers.tv/timeshift/rbk/126/playlist.m3u8?offset=1
 https://ru.spbtv.com/aHR0cHM6Ly9hcGkuc3BidHYuY29tL3Yx/10405844-4607-415a-967e-8a1efb847006
 #EXTINF:-1 group-title="Новостные",РБК
 http://tv.domatv.net/91-rbk.html
-#EXTINF:-1 group-title="Новостные",СОЛОВЬЁВLIVE
-https://smotrim.ru/brand/66924
 #EXTINF:-1 group-title="Общественные",RTД
 https://cdn-01.bonus-tv.ru/rtdoc/index.m3u8
 #EXTINF:-1 group-title="Общественные",RTД
