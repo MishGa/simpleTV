@@ -2405,6 +2405,10 @@ http://livetv.mylifeisgood.ml/mfolive.m3u8?media=tnthd
 https://bl.uma.media/live/410338/HLS/6307840_7,4280320_6,2703360_5,1408000_4,1070080_3,732160_2,394240_1/1613013807/79ad96b5b87fdce129191b83aaf2fb46/playlist.m3u8
 #EXTINF:-1 group-title="Федеральные",ТНТ HD
 http://livetv.mylifeisgood.ml/mfolive.m3u8?media=tnt
+#EXTINF:-1 group-title="Федеральные",Соловьёвlive
+http://vgtrksmotrim.cdnvideo.ru/iframe/stream/live_id/63338&ext=.m3u8
+#EXTINF:-1 group-title="Федеральные",Соловьёвlive
+http://195.2.74.99/channel/n2b108be5/index.m3u8?q=54cf135238a2c9cb122f4ce6651e94bd
 #EXTINF:-1 group-title="Федеральные",ТНТ HD
 https://tv+hd.tnthd
 #EXTINF:-1 group-title="Фильмы",.red
