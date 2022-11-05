@@ -741,6 +741,8 @@ https://tv24h/309/stream?access_token=60e7bd6049f70cfffe0dee01fff89569593128d5
 http://only-tv.org/8-kanal.html
 #EXTINF:-1 group-title="Новосибирск",8 канал
 https://tv+hd.kanal8
+#EXTINF:-1 group-title="Новосибирск",
+https://otstv.ru/live/
 #EXTINF:-1 group-title="Новосибирск",8 канал (Новосибирск)
 https://infolink/10285
 #EXTINF:-1 group-title="Новосибирск",8 канал (Новосибирск)
@@ -1109,26 +1111,12 @@ https://infolink/10093
 https://tv+hd.nano
 #EXTINF:-1 group-title="Познавательные",Nat Geo Wild
 http://only-tv.org/nat-geo-wild.html
-#EXTINF:-1 group-title="Познавательные",Nat Geo Wild HD
-http://api.peers.tv/timeshift/nat_geo_wild_hd/16/playlist.m3u8?offset=1
-#EXTINF:-1 group-title="Познавательные",Nat Geo Wild HD
-https://www.voka.tv/d62c349d-92a4-430f-aadf-8f5871202331
-#EXTINF:-1 group-title="Познавательные",National Geographic
+#EXTINF:-1 group-title="Познавательные",National Geographic HD
 http://bluepoint/3244?archive=true
 #EXTINF:-1 group-title="Познавательные",National Geographic
 http://only-tv.org/national-geographic.html
-#EXTINF:-1 group-title="Познавательные",National Geographic
-http://api.peers.tv/timeshift/natgeo/16/playlist.m3u8?offset=1
-#EXTINF:-1 group-title="Познавательные",National Geographic HD
-http://api.peers.tv/timeshift/national_geographic_hd/16/playlist.m3u8?offset=1
-#EXTINF:-1 group-title="Познавательные",National Geographic HD
-https://www.voka.tv/50160d2b-f506-46ef-b6e0-b9ca82a7547b
-#EXTINF:-1 group-title="Познавательные",National Geographic HD
-https://sc.id-tv.kz:443/NatGeogHD_34_35.m3u8
-#EXTINF:-1 group-title="Познавательные",National Geographic HD
+#EXTINF:-1 group-title="Познавательные",TERRA
 https://okkotv-live.cdnvideo.ru/channel/NGC_HD.m3u8
-#EXTINF:-1 group-title="Познавательные",National Geographic Wild HD
-https://okkotv-live.cdnvideo.ru/channel/NGC_Wild_HD.m3u8
 #EXTINF:-1 group-title="Познавательные",RTG
 http://only-tv.org/rtg.html
 #EXTINF:-1 group-title="Познавательные",RTG
