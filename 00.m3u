@@ -991,8 +991,6 @@ https://www.voka.tv/e4d321a5-3477-464b-834a-425f19b131ee
 http://only-tv.org/bolt.html
 #EXTINF:-1 group-title="Фильмы",BOLT HD
 http://starnet-md.BOLT_H264
-#EXTINF:-1 group-title="Фильмы",Canal 2 HD
-http://starnet-md.CANAL2_H264&tshift=true
 #EXTINF:-1 group-title="Фильмы",Canal 3 HD
 http://starnet-md.CANAL3_H264&tshift=true
 #EXTINF:-1 group-title="Фильмы",CGTN Русский
@@ -1029,8 +1027,6 @@ http://only-tv.org/fox-life.html
 http://only-tv.net/fox-life.html
 #EXTINF:-1 group-title="Фильмы",Hollywood
 https://www.voka.tv/05580313-0a4a-4cb9-ba27-64f824a51164
-#EXTINF:-1 group-title="Фильмы",Hollywood HD
-http://only-tv.org/hollywood-hd.html
 #EXTINF:-1 group-title="Фильмы",Movie Classic
 https://www.voka.tv/2d9c4669-26c7-402a-986b-7b68f8082d84
 #EXTINF:-1 group-title="Фильмы",Paramount Channel
