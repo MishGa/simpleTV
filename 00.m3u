@@ -259,11 +259,11 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_NTV_4/variant.m3u8
 http://zabava-htlive.cdn.ngenix.net/hls/CH_NASHASIBIR4K/bw6000000/variant.m3u8
 #EXTINF:-1 group-title="Новосибирск",ОТС
 https://rt-sib-nsk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_NSK_OTS/variant.m3u8
-#EXTINF:-1 group-title="Новосибирск",ОТС HD
+#EXTINF:-1 group-title="Новосибирск",ОТС
 https://rt-sib-nsk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_NSK_OTS/variant.m3u8?version=2
-#EXTINF:-1 group-title="Новосибирск",ОТС HD
+#EXTINF:-1 group-title="Новосибирск",ОТС
 http://rt-sib-nsk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_NSK_OTS/variant.m3u8
-#EXTINF:-1 group-title="Новосибирск",ОТС HD
+#EXTINF:-1 group-title="Новосибирск",ОТС
 http://api.peers.tv/timeshift/ots/16/playlist.m3u8?offset=1
 #EXTINF:-1 group-title="Новосибирск",Первый канал (+4)
 https://zabava-htlive.cdn.ngenix.net/hls/CH_1TVSD_4/variant.m3u8
@@ -281,7 +281,7 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIA1_4/variant.m3u8
 http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIAK_4/variant.m3u8
 #EXTINF:-1 group-title="Новосибирск",СТС (+4)
 http://zabava-htlive.cdn.ngenix.net/hls/CH_STS_4/variant.m3u8
-#EXTINF:-1 group-title="Новосибирск",ТВ 3 (+4)
+#EXTINF:-1 group-title="Новосибирск",ТВ-3 (+4)
 http://zabava-htlive.cdn.ngenix.net/hls/CH_TV3_4/variant.m3u8
 #EXTINF:-1 group-title="Новосибирск",ТВ Центр (+4)
 http://zabava-htlive.cdn.ngenix.net/hls/CH_TVC_4/variant.m3u8
@@ -311,6 +311,8 @@ http://api.peers.tv/timeshift/365_days/16/playlist.m3u8?offset=1
 https://www.voka.tv/0e9b1414-89a9-49f4-9fca-69b8fc9fcab7
 #EXTINF:-1 group-title="Познавательные",Animal Planet
 http://bluepoint/3243?archive=true
+#EXTINF:-1 group-title="Познавательные",Ретро ТВ
+https://www.voka.tv/79c5fe0c-8803-482d-a0fe-e686f252a143
 #EXTINF:-1 group-title="Познавательные",Animal Planet
 http://only-tv.org/animal-planet.html
 #EXTINF:-1 group-title="Познавательные",Animal Planet HD
@@ -443,7 +445,7 @@ http://api.peers.tv/timeshift/zoo_tv/16/playlist.m3u8?offset=1
 http://bluepoint/3256?archive=true
 #EXTINF:-1 group-title="Познавательные",Zooпарк
 https://www.voka.tv/4b2f9401-3deb-4950-9a1e-fc2c572fe3e1
-#EXTINF:-1 group-title="Познавательные",Арктика 24 HD
+#EXTINF:-1 group-title="Познавательные",Ямал 1
 https://rt-ural-nbk-htlive.cdn.ngenix.net/hls/CH_R04_OTT_ARKTIKA24_URAL_YNF/variant.m3u8?version=2
 #EXTINF:-1 group-title="Познавательные",Арктика 24 HD
 http://rt-ural-nbk-htlive.cdn.ngenix.net/hls/CH_R04_OTT_ARKTIKA24_URAL_YNF/variant.m3u8
@@ -885,43 +887,43 @@ http://bluepoint/3278?archive=true
 https://okkotv-live.cdnvideo.ru/channel/CTC_HD_OTT.m3u8
 #EXTINF:-1 group-title="Федеральные",СТС Int
 https://sc.id-tv.kz/STS_34_35.m3u8
-#EXTINF:-1 group-title="Федеральные",ТВ 3
+#EXTINF:-1 group-title="Федеральные",ТВ-3
 http://api.peers.tv/timeshift/tv3/16/playlist.m3u8?offset=1
-#EXTINF:-1 group-title="Федеральные",ТВ 3
+#EXTINF:-1 group-title="Федеральные",ТВ-3
 https://tv24h/3947/stream?access_token=60e7bd6049f70cfffe0dee01fff89569593128d5
-#EXTINF:-1 group-title="Федеральные",ТВ 3
+#EXTINF:-1 group-title="Федеральные",ТВ-3
 http://bluepoint/3261?archive=true
-#EXTINF:-1 group-title="Федеральные",ТВ 3
+#EXTINF:-1 group-title="Федеральные",ТВ-3
 https://infolink/130
-#EXTINF:-1 group-title="Федеральные",ТВ 3
+#EXTINF:-1 group-title="Федеральные",ТВ-3
 http://only-tv.org/tv-3.html
-#EXTINF:-1 group-title="Федеральные",ТВ 3
+#EXTINF:-1 group-title="Федеральные",ТВ-3
 https://tv+hd.tv3
-#EXTINF:-1 group-title="Федеральные",ТВ 3
+#EXTINF:-1 group-title="Федеральные",ТВ-3
 https://zabava-htlive.cdn.ngenix.net/hls/CH_TV3/variant.m3u8
-#EXTINF:-1 group-title="Федеральные",ТВ 3
+#EXTINF:-1 group-title="Федеральные",ТВ-3
 https://rt-sib-nsk-htlive.cdn.ngenix.net/hls/CH_R01_TV3_NSK/variant.m3u8
-#EXTINF:-1 group-title="Федеральные",ТВ 3 (+2)
+#EXTINF:-1 group-title="Федеральные",ТВ-3 (+2)
 http://zabava-htlive.cdn.ngenix.net/hls/CH_TV3_2/variant.m3u8
-#EXTINF:-1 group-title="Федеральные",ТВ 3 (+7)
+#EXTINF:-1 group-title="Федеральные",ТВ-3 (+7)
 http://zabava-htlive.cdn.ngenix.net/hls/CH_TV3_7/variant.m3u8
-#EXTINF:-1 group-title="Федеральные",ТВ Центр
+#EXTINF:-1 group-title="Федеральные",ТВЦ
 http://api.peers.tv/timeshift/tvc/126/playlist.m3u8?offset=1
-#EXTINF:-1 group-title="Федеральные",ТВ Центр
+#EXTINF:-1 group-title="Федеральные",ТВЦ
 http://only-tv.net/tvc.html
-#EXTINF:-1 group-title="Федеральные",ТВ Центр
+#EXTINF:-1 group-title="Федеральные",ТВЦ
 https://tv24h/10003/stream?access_token=60e7bd6049f70cfffe0dee01fff89569593128d5
-#EXTINF:-1 group-title="Федеральные",ТВ Центр
+#EXTINF:-1 group-title="Федеральные",ТВЦ
 http://bluepoint/3221?archive=true
-#EXTINF:-1 group-title="Федеральные",ТВ Центр
+#EXTINF:-1 group-title="Федеральные",ТВЦ
 https://infolink/129
-#EXTINF:-1 group-title="Федеральные",ТВ Центр
+#EXTINF:-1 group-title="Федеральные",ТВЦ
 http://only-tv.org/tvc.html
-#EXTINF:-1 group-title="Федеральные",ТВ Центр
+#EXTINF:-1 group-title="Федеральные",ТВЦ
 https://tv+hd.tvc
-#EXTINF:-1 group-title="Федеральные",ТВ Центр
+#EXTINF:-1 group-title="Федеральные",ТВЦ
 https://zabava-htlive.cdn.ngenix.net/hls/CH_TVC/variant.m3u8
-#EXTINF:-1 group-title="Федеральные",ТВ Центр
+#EXTINF:-1 group-title="Федеральные",ТВЦ
 https://rt-sib-nsk-htlive.cdn.ngenix.net/hls/CH_R04_TVC_NSK/variant.m3u8
 #EXTINF:-1 group-title="Федеральные",ТВ Центр (+7)
 http://zabava-htlive.cdn.ngenix.net/hls/CH_TVC_7/variant.m3u8
@@ -1125,8 +1127,6 @@ http://94.229.250.73:8008/play/a003
 https://okkotv-live.cdnvideo.ru/channel/VIP_Serial_HD.m3u8
 #EXTINF:-1 group-title="Фильмы",VIP Serial
 http://starnet-md.VIP_SERIALHD_H264&tshift=true
-#EXTINF:-1 group-title="Фильмы",ДОРАМА
-https://sc.id-tv.kz/dorama_hd_34_35.m3u8
 #EXTINF:-1 group-title="Фильмы",Дом кино
 https://sc.id-tv.kz:443/DomKino_36_37.m3u8
 #EXTINF:-1 group-title="Фильмы",Дом кино
@@ -1211,13 +1211,13 @@ https://www.voka.tv/1851fc0b-e7c8-41de-adfc-682906f08a93
 https://tv24h/3781/stream?access_token=60e7bd6049f70cfffe0dee01fff89569593128d5
 #EXTINF:-1 group-title="Фильмы",НТВ Хит
 http://only-tv.net/ntv-hit.html
-#EXTINF:-1 group-title="Фильмы",Настоящее Страшное ТВ
+#EXTINF:-1 group-title="Фильмы",Настоящее Страшное Телевидение
 http://bluepoint/3284?archive=true
-#EXTINF:-1 group-title="Фильмы",Настоящее страшное ТВ
+#EXTINF:-1 group-title="Фильмы",Настоящее Страшное Телевидение
 http://only-tv.org/nst.html
-#EXTINF:-1 group-title="Фильмы",Настоящее страшное ТВ
+#EXTINF:-1 group-title="Фильмы",Настоящее Страшное Телевидение
 http://api.peers.tv/timeshift/nstv/16/playlist.m3u8?offset=1
-#EXTINF:-1 group-title="Фильмы",Настоящее страшное ТВ
+#EXTINF:-1 group-title="Фильмы",Настоящее Страшное Телевидение
 http://only-tv.net/nst.html
 #EXTINF:-1 group-title="Фильмы",Наш Кинороман
 http://only-tv.org/nash-kinoroman.html
