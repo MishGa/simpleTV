@@ -573,6 +573,10 @@ https://www.voka.tv/303de646-288f-4fda-9fd5-2c56a84e4504
 http://bluepoint/3236?archive=true
 #EXTINF:-1 group-title="Развлекательные",Ностальгия
 http://starnet-md.NOSTALIGYA_H264
+#EXTINF:-1 group-title="Развлекательные",Театр
+
+#EXTINF:-1 group-title="Развлекательные",Театр
+http://bluepoint/3230?archive=true
 #EXTINF:-1 group-title="Развлекательные",Первый Театральный Канал
 http://api.peers.tv/timeshift/1teatr/16/playlist.m3u8?offset=1
 #EXTINF:-1 group-title="Спорт",Мир Баскетбола
