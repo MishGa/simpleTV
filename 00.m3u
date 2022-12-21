@@ -283,7 +283,7 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIAK_4/variant.m3u8
 http://zabava-htlive.cdn.ngenix.net/hls/CH_STS_4/variant.m3u8
 #EXTINF:-1 group-title="Новосибирск",ТВ-3 (+4)
 http://zabava-htlive.cdn.ngenix.net/hls/CH_TV3_4/variant.m3u8
-#EXTINF:-1 group-title="Новосибирск",ТВ Центр (+4)
+#EXTINF:-1 group-title="Новосибирск",ТВЦ (+4)
 http://zabava-htlive.cdn.ngenix.net/hls/CH_TVC_4/variant.m3u8
 #EXTINF:-1 group-title="Новосибирск",ТНТ (+4)
 http://zabava-htlive.cdn.ngenix.net/hls/CH_TNT_4/variant.m3u8
@@ -925,7 +925,7 @@ https://tv+hd.tvc
 https://zabava-htlive.cdn.ngenix.net/hls/CH_TVC/variant.m3u8
 #EXTINF:-1 group-title="Федеральные",ТВЦ
 https://rt-sib-nsk-htlive.cdn.ngenix.net/hls/CH_R04_TVC_NSK/variant.m3u8
-#EXTINF:-1 group-title="Федеральные",ТВ Центр (+7)
+#EXTINF:-1 group-title="Федеральные",ТВЦ (+7)
 http://zabava-htlive.cdn.ngenix.net/hls/CH_TVC_7/variant.m3u8
 #EXTINF:-1 group-title="Федеральные",ТНТ
 http://api.peers.tv/timeshift/tnt/16/playlist.m3u8?offset=1
