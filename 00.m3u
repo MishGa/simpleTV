@@ -1,4 +1,5 @@
-﻿#EXTINF:-1 group-title="4K",Red Bull TV UHD
+﻿#EXTM3U
+#EXTINF:-1 group-title="4K",Red Bull TV UHD
 https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_3360.m3u8?nmstv.m3u8
 #EXTINF:-1 group-title="4K",Russian Extreme Ultra HD
 https://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIANEXTREMEULTRA/variant.m3u8
