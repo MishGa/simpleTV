@@ -29,82 +29,6 @@ https://sc.id-tv.kz:443/Indiiskoe_kino_34_35.m3u8
 http://bluepoint/3296?archive=true
 #EXTINF:-1 group-title="Индия",Индийское кино
 https://www.voka.tv/dc408463-91b9-43ff-8aca-1a6d88054994
-#EXTINF:-1 group-title="Фильмы",Кинокомедия
-https://sc.id-tv.kz/Kinokomediya_hd_34_35.m3u8
-#EXTINF:-1 group-title="Фильмы",Кинокомедия
-http://bluepoint/3298?archive=true
-#EXTINF:-1 group-title="Фильмы",Кинокомедия
-http://starnet-md.KINO_KOMEDYA_H264&tshift=true
-#EXTINF:-1 group-title="Фильмы",Кинокомедия
-https://www.voka.tv/f540adb1-dc64-4be7-af9b-d8fec89e1dfc
-#EXTINF:-1 group-title="Фильмы",Кинокомедия
-http://api.peers.tv/timeshift/comedytv/16/playlist.m3u8?offset=1
-#EXTINF:-1 group-title="Фильмы",Киномикс
-http://82.209.197.187:8080/udp/239.0.100.33:1234
-#EXTINF:-1 group-title="Фильмы",Киномикс
-http://bluepoint/3291?archive=true
-#EXTINF:-1 group-title="Фильмы",Киномикс
-https://www.voka.tv/fe81e31b-a170-4f0e-9a4c-921c9a7ced25
-#EXTINF:-1 group-title="Фильмы",Киномикс
-http://api.peers.tv/timeshift/ntv_kino_plyus/16/playlist.m3u8?offset=1
-#EXTINF:-1 group-title="Фильмы",Киномикс HD
-http://starnet-md.KINOMIX_H264&tshift=true
-#EXTINF:-1 group-title="Фильмы",Киномикс HD
-https://sc.id-tv.kz/Kinomix_hd_34_35.m3u8
-#EXTINF:-1 group-title="Фильмы",Кинопремьера HD
-http://bluepoint/3293?archive=true
-#EXTINF:-1 group-title="Фильмы",Кинопремьера HD
-http://starnet-md.KINOPREMIERA_H264&tshift=true
-#EXTINF:-1 group-title="Фильмы",Кинопремьера HD
-https://www.voka.tv/d2dde3ae-b8e5-44bd-a032-3f0929788021
-#EXTINF:-1 group-title="Фильмы",Киносвидание
-https://sc.id-tv.kz/Kinosvidanie_hd.m3u8
-#EXTINF:-1 group-title="Фильмы",Киносвидание
-http://starnet-md.KINO_SVIDANIE_H264&tshift=true
-#EXTINF:-1 group-title="Фильмы",Киносвидание
-https://www.voka.tv/0a63234b-5b27-46b7-9f27-2932a533dc28
-#EXTINF:-1 group-title="Фильмы",Киносвидание HD
-https://sc.id-tv.kz/Kinosvidanie_hd_34_35.m3u8
-#EXTINF:-1 group-title="Фильмы",Киносемья
-http://bluepoint/3280?archive=true
-#EXTINF:-1 group-title="Фильмы",Киносемья
-http://starnet-md.KINOSEMYA_H264&tshift=true
-#EXTINF:-1 group-title="Фильмы",Киносемья
-https://www.voka.tv/f5d0e42c-e1c8-4bbc-a0a5-020adee5452c
-#EXTINF:-1 group-title="Фильмы",Киносемья FHD
-https://sc.id-tv.kz/Kinosemiya_hd_34_35.m3u8
-#EXTINF:-1 group-title="Фильмы",Киносемья HD
-https://sc.id-tv.kz/Kinosemiya_hd.m3u8
-#EXTINF:-1 group-title="Фильмы",Киносерия
-http://bluepoint/3302?archive=true
-#EXTINF:-1 group-title="Фильмы",Киносерия
-http://starnet-md.KINOSERYA_H264&tshift=true
-#EXTINF:-1 group-title="Фильмы",Киносерия HD
-https://www.voka.tv/306fe82c-244a-4908-9048-b7fb5cde21c0
-#EXTINF:-1 group-title="Фильмы",Кинохит
-https://sc.id-tv.kz/Kinohit_hd_34_35.m3u8
-#EXTINF:-1 group-title="Фильмы",Кинохит
-http://bluepoint/3289?archive=true
-#EXTINF:-1 group-title="Фильмы",Кинохит
-http://starnet-md.KINOHIT_H264&tshift=true
-#EXTINF:-1 group-title="Фильмы",Мужское кино
-http://bluepoint/3237?archive=true
-#EXTINF:-1 group-title="Фильмы",Мужское кино
-http://starnet-md.MUJSKOE_KINO_H264&tshift=true
-#EXTINF:-1 group-title="Фильмы",Мужское кино
-https://www.voka.tv/cfb51d00-d16c-42d2-8f49-146d47b8c720
-#EXTINF:-1 group-title="Фильмы",Наше новое кино
-http://bluepoint/3294?archive=true
-#EXTINF:-1 group-title="Фильмы",Наше новое кино
-http://starnet-md.NASHENOVOIE_KINO_H264&tshift=true
-#EXTINF:-1 group-title="Фильмы",Наше новое кино
-https://www.voka.tv/d08f72fc-dea4-4dee-af4c-c45f1db1451f
-#EXTINF:-1 group-title="Фильмы",Родное кино
-https://sc.id-tv.kz/Rodnoe_kino_34_35.m3u8
-#EXTINF:-1 group-title="Фильмы",Родное кино
-http://starnet-md.RODNOIE_KINO_H264&tshift=true
-#EXTINF:-1 group-title="Фильмы",Родное кино
-https://www.voka.tv/c7bc6b6b-2677-483f-bf61-07cbd181634d
 #EXTINF:-1 group-title="Матч",Eurosport 1
 http://only-tv.org/eurosport.html
 #EXTINF:-1 group-title="Матч",Eurosport 1 HD
@@ -215,6 +139,32 @@ http://only-tv.org/okhotnik-i-rybolov.html
 https://sc.id-tv.kz:443/Ribalka_Ohota_36_37.m3u8
 #EXTINF:-1 group-title="Мужские",Рыбалка и охота
 https://www.voka.tv/1bfaceae-90dc-4da5-8a0d-7bccefd53bfe
+#EXTINF:-1 group-title="Музыка",BRIDGE HITS HD
+https://strm.yandex.ru/tv/aLXlzdOHUzbS4wc3RpaHZ0ZWdkaXJiL3N0aWh2dGVnZGlyYi9sYWsvdXIueGVkbmF5Lm1ydHMvLzpzcHR0aA==
+#EXTINF:-1 group-title="Музыка",Bridge TV
+https://strm.yandex.ru/tv/fQqlzdOHUzbS4wdnRlZ2RpcmIvdnRlZ2RpcmIvbGFrL3VyLnhlZG5heS5tcnRzLy86c3B0dGg=
+#EXTINF:-1 group-title="Музыка",Bridge TV Classic
+https://strm.yandex.ru/tv/fwZlzdOHUzbS4wY2lzc2FsY3Z0ZWdkaXJiL2Npc3NhbGN2dGVnZGlyYi9sYWsvdXIueGVkbmF5Lm1ydHMvLzpzcHR0aA==
+#EXTINF:-1 group-title="Музыка",Bridge TV Deluxe
+https://strm.yandex.ru/tv/HcRlzdOHUzbS4wZXh1bGVkdnRlZ2RpcmIvZXh1bGVkdnRlZ2RpcmIvbGFrL3VyLnhlZG5heS5tcnRzLy86c3B0dGg=
+#EXTINF:-1 group-title="Музыка",BRIDGE Русский Хит HD
+https://strm.yandex.ru/tv/GQUlzdOHUzbS4wdGloeWlrc3N1cl92dGVnZGlyYi90aWh5aWtzc3VyX3Z0ZWdkaXJiL2xhay91ci54ZWRuYXkubXJ0cy8vOnNwdHRo
+#EXTINF:-1 group-title="Музыка",BRIDGE ФРЭШ HD
+https://strm.yandex.ru/tv/EOvlzdOHUzbS4waHNlcmZfdnRfZWdkaXJiL2hzZXJmX3Z0X2VnZGlyYi9sYWsvdXIueGVkbmF5Lm1ydHMvLzpzcHR0aA==
+#EXTINF:-1 group-title="Музыка",BRIDGE Шлягер
+https://strm.yandex.ru/tv/zuKlzdOHUzbS4wcmVnYXlsaHNfdnRlZ2RpcmIvcmVnYXlsaHNfdnRlZ2RpcmIvbGFrL3VyLnhlZG5heS5tcnRzLy86c3B0dGg=
+#EXTINF:-1 group-title="Музыка",MUSIC BOX GOLD
+https://strm.yandex.ru/tv/kYQlzdOHUzbS4wZGxvZ3hvYmNpc3VtL2Rsb2d4b2JjaXN1bS9sYWsvdXIueGVkbmF5Lm1ydHMvLzpzcHR0aA==
+#EXTINF:-1 group-title="Музыка",MUSIC BOX RUSSIAN HD
+https://strm.yandex.ru/tv/HMzlzdOHUzbS4weG9ibXIveG9ibXIvbGFrL3VyLnhlZG5heS5tcnRzLy86c3B0dGg=
+#EXTINF:-1 group-title="Музыка",RU TV HD
+https://strm.yandex.ru/tv/QQClzdOHUzbS4wdmNfdnR1ci92Y192dHVyL2xhay91ci54ZWRuYXkubXJ0cy8vOnNwdHRo
+#EXTINF:-1 group-title="Музыка",Ля минор
+https://strm.yandex.ru/tv/qyQlzdfWI5MTliMTJmOGNhNmFjMzY4YjA1YjI1MmUzNTU2YTM5PXlla19ub2l0cHlyY2Vkez1zbm9pdHBvLXh1bWVkdmE6VFBPJHh1bWVkdmEtZXN1LWV2aXRwYWRhOlRQTyRkcG0udHNlZmluYW0vcm9uaW1fYXlsL2xhay91ci54ZWRuYXkubXJ0cy8vOnNwdHRo
+#EXTINF:-1 group-title="Музыка",Мультимузыка
+https://strm.yandex.ru/tv/lmClzdfWU4YzQ0MzM4ZWZjMmY0Njc2YmI4Y2FlMjJiYTZlNGU5PXlla19ub2l0cHlyY2Vkez1zbm9pdHBvLXh1bWVkdmE6VFBPJHh1bWVkdmEtZXN1LWV2aXRwYWRhOlRQTyRkcG0udHNlZmluYW0vYWt5enVtaXRsdW0vbGFrL3VyLnhlZG5heS5tcnRzLy86c3B0dGg=
+#EXTINF:-1 group-title="Музыка",ТНТ MUSIC HD
+https://strm.yandex.ru/tv/wkRlzdOHUzbS4wY2lzdW10bnQvY2lzdW10bnQvbGFrL3VyLnhlZG5heS5tcnRzLy86c3B0dGg=
 #EXTINF:-1 group-title="Новосибирск",2x2 (+4)
 http://zabava-htlive.cdn.ngenix.net/hls/CH_2X2_4/variant.m3u8
 #EXTINF:-1 group-title="Новосибирск",49 канал
@@ -447,7 +397,7 @@ http://bluepoint/3256?archive=true
 https://www.voka.tv/4b2f9401-3deb-4950-9a1e-fc2c572fe3e1
 #EXTINF:-1 group-title="Познавательные",Ямал 1
 https://rt-ural-nbk-htlive.cdn.ngenix.net/hls/CH_R04_OTT_ARKTIKA24_URAL_YNF/variant.m3u8?version=2
-#EXTINF:-1 group-title="Познавательные",Арктика 24 HD
+#EXTINF:-1 group-title="Познавательные",Ямал 1
 http://rt-ural-nbk-htlive.cdn.ngenix.net/hls/CH_R04_OTT_ARKTIKA24_URAL_YNF/variant.m3u8
 #EXTINF:-1 group-title="Познавательные",Бобёр
 https://sc.id-tv.kz/bober_34_35.m3u8
@@ -471,12 +421,6 @@ http://bluepoint/3235?archive=true
 https://infolink/10676
 #EXTINF:-1 group-title="Познавательные",Дикий
 http://starnet-md.DIKYI_H264
-#EXTINF:-1 group-title="Познавательные",Доктор
-http://195.26.83.96:7024/play/69
-#EXTINF:-1 group-title="Познавательные",Доктор
-http://myott.top/stream/1VGPHYLZTH/80.m3u8
-#EXTINF:-1 group-title="Познавательные",Доктор
-http://only-tv.net/24-dok.html
 #EXTINF:-1 group-title="Познавательные",Домашние животные
 http://bluepoint/3255?archive=true
 #EXTINF:-1 group-title="Познавательные",ЕГЭ ТВ
@@ -491,10 +435,6 @@ http://only-tv.org/zhivaya-planeta.html
 http://api.peers.tv/timeshift/zhivaya_planeta/16/playlist.m3u8?offset=1
 #EXTINF:-1 group-title="Познавательные",Живая природа
 https://infolink/10675
-#EXTINF:-1 group-title="Познавательные",Загородная Жизнь
-https://infolink/11159
-#EXTINF:-1 group-title="Познавательные",Загородная жизнь
-http://api.peers.tv/timeshift/zagorod_zh/16/playlist.m3u8?offset=1
 #EXTINF:-1 group-title="Познавательные",История
 http://195.26.83.96:7024/play/70
 #EXTINF:-1 group-title="Познавательные",История
@@ -574,7 +514,7 @@ http://bluepoint/3236?archive=true
 #EXTINF:-1 group-title="Развлекательные",Ностальгия
 http://starnet-md.NOSTALIGYA_H264
 #EXTINF:-1 group-title="Развлекательные",Театр
-
+https://s91412.cdn.ngenix.net/mdrm/CH_THEATERHD/manifest.mpd$OPT:adaptive-use-avdemux$OPT:avdemux-options={decryption_key=1185b7414ad5e8fa98e86fe83c6b3b60}
 #EXTINF:-1 group-title="Развлекательные",Театр
 http://bluepoint/3230?archive=true
 #EXTINF:-1 group-title="Развлекательные",Первый Театральный Канал
@@ -959,6 +899,82 @@ http://vgtrksmotrim.cdnvideo.ru/iframe/stream/live_id/63338&ext=.m3u8
 http://195.2.74.99/channel/n2b108be5/index.m3u8?q=54cf135238a2c9cb122f4ce6651e94bd
 #EXTINF:-1 group-title="Федеральные",ТНТ HD
 https://tv+hd.tnthd
+#EXTINF:-1 group-title="Фильмы",Кинокомедия
+https://sc.id-tv.kz/Kinokomediya_hd_34_35.m3u8
+#EXTINF:-1 group-title="Фильмы",Кинокомедия
+http://bluepoint/3298?archive=true
+#EXTINF:-1 group-title="Фильмы",Кинокомедия
+http://starnet-md.KINO_KOMEDYA_H264&tshift=true
+#EXTINF:-1 group-title="Фильмы",Кинокомедия
+https://www.voka.tv/f540adb1-dc64-4be7-af9b-d8fec89e1dfc
+#EXTINF:-1 group-title="Фильмы",Кинокомедия
+http://api.peers.tv/timeshift/comedytv/16/playlist.m3u8?offset=1
+#EXTINF:-1 group-title="Фильмы",Киномикс
+http://82.209.197.187:8080/udp/239.0.100.33:1234
+#EXTINF:-1 group-title="Фильмы",Киномикс
+http://bluepoint/3291?archive=true
+#EXTINF:-1 group-title="Фильмы",Киномикс
+https://www.voka.tv/fe81e31b-a170-4f0e-9a4c-921c9a7ced25
+#EXTINF:-1 group-title="Фильмы",Киномикс
+http://api.peers.tv/timeshift/ntv_kino_plyus/16/playlist.m3u8?offset=1
+#EXTINF:-1 group-title="Фильмы",Киномикс HD
+http://starnet-md.KINOMIX_H264&tshift=true
+#EXTINF:-1 group-title="Фильмы",Киномикс HD
+https://sc.id-tv.kz/Kinomix_hd_34_35.m3u8
+#EXTINF:-1 group-title="Фильмы",Кинопремьера HD
+http://bluepoint/3293?archive=true
+#EXTINF:-1 group-title="Фильмы",Кинопремьера HD
+http://starnet-md.KINOPREMIERA_H264&tshift=true
+#EXTINF:-1 group-title="Фильмы",Кинопремьера HD
+https://www.voka.tv/d2dde3ae-b8e5-44bd-a032-3f0929788021
+#EXTINF:-1 group-title="Фильмы",Киносвидание
+https://sc.id-tv.kz/Kinosvidanie_hd.m3u8
+#EXTINF:-1 group-title="Фильмы",Киносвидание
+http://starnet-md.KINO_SVIDANIE_H264&tshift=true
+#EXTINF:-1 group-title="Фильмы",Киносвидание
+https://www.voka.tv/0a63234b-5b27-46b7-9f27-2932a533dc28
+#EXTINF:-1 group-title="Фильмы",Киносвидание HD
+https://sc.id-tv.kz/Kinosvidanie_hd_34_35.m3u8
+#EXTINF:-1 group-title="Фильмы",Киносемья
+http://bluepoint/3280?archive=true
+#EXTINF:-1 group-title="Фильмы",Киносемья
+http://starnet-md.KINOSEMYA_H264&tshift=true
+#EXTINF:-1 group-title="Фильмы",Киносемья
+https://www.voka.tv/f5d0e42c-e1c8-4bbc-a0a5-020adee5452c
+#EXTINF:-1 group-title="Фильмы",Киносемья FHD
+https://sc.id-tv.kz/Kinosemiya_hd_34_35.m3u8
+#EXTINF:-1 group-title="Фильмы",Киносемья HD
+https://sc.id-tv.kz/Kinosemiya_hd.m3u8
+#EXTINF:-1 group-title="Фильмы",Киносерия
+http://bluepoint/3302?archive=true
+#EXTINF:-1 group-title="Фильмы",Киносерия
+http://starnet-md.KINOSERYA_H264&tshift=true
+#EXTINF:-1 group-title="Фильмы",Киносерия HD
+https://www.voka.tv/306fe82c-244a-4908-9048-b7fb5cde21c0
+#EXTINF:-1 group-title="Фильмы",Кинохит
+https://sc.id-tv.kz/Kinohit_hd_34_35.m3u8
+#EXTINF:-1 group-title="Фильмы",Кинохит
+http://bluepoint/3289?archive=true
+#EXTINF:-1 group-title="Фильмы",Кинохит
+http://starnet-md.KINOHIT_H264&tshift=true
+#EXTINF:-1 group-title="Фильмы",Мужское кино
+http://bluepoint/3237?archive=true
+#EXTINF:-1 group-title="Фильмы",Мужское кино
+http://starnet-md.MUJSKOE_KINO_H264&tshift=true
+#EXTINF:-1 group-title="Фильмы",Мужское кино
+https://www.voka.tv/cfb51d00-d16c-42d2-8f49-146d47b8c720
+#EXTINF:-1 group-title="Фильмы",Наше новое кино
+http://bluepoint/3294?archive=true
+#EXTINF:-1 group-title="Фильмы",Наше новое кино
+http://starnet-md.NASHENOVOIE_KINO_H264&tshift=true
+#EXTINF:-1 group-title="Фильмы",Наше новое кино
+https://www.voka.tv/d08f72fc-dea4-4dee-af4c-c45f1db1451f
+#EXTINF:-1 group-title="Фильмы",Родное кино
+https://sc.id-tv.kz/Rodnoe_kino_34_35.m3u8
+#EXTINF:-1 group-title="Фильмы",Родное кино
+http://starnet-md.RODNOIE_KINO_H264&tshift=true
+#EXTINF:-1 group-title="Фильмы",Родное кино
+https://www.voka.tv/c7bc6b6b-2677-483f-bf61-07cbd181634d
 #EXTINF:-1 group-title="Фильмы",.red
 https://www.voka.tv/8278c18e-d905-4fd2-b423-614cd89667ee
 #EXTINF:-1 group-title="Фильмы",.sci-fi
@@ -1287,7 +1303,7 @@ https://www.voka.tv/6e009b05-b51e-414f-9b5e-f87af3df3951
 http://only-tv.org/tv1000.html
 #EXTINF:-1 group-title="Фильмы",ТВ1000 Русское кино
 http://only-tv.org/tv1000-russkoe-kino.html
-#EXTINF:-1 group-title="Фильмы",.Sci-Fi
+#EXTINF:-1 group-title="Фильмы",.sci-fi
 https://v2.catcast.tv/content/38801/index.m3u8
 #EXTINF:-1 group-title="Фильмы",Феникс+ кино
 https://infolink/143
